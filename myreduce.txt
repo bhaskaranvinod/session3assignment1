@@ -1,0 +1,7 @@
+def myreduce(a,b):
+    max = b[0]
+    for next in b[1:]:
+        if next > max:
+            max=next
+    return next
+myreduce (lambda x: x>y,[1,3,5,2,7,9] )
